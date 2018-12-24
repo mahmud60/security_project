@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="GetSimSerial"
+        android:text="Get Sim ID"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="107dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="GetNumber"
+        android:text="Get Number"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="107dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:text="number"/>
+    <Button
+        android:id="@+id/callLog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="CallLog"
+        android:text="Call Log"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="107dp" />
+
+</LinearLayout>
